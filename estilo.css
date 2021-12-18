@@ -1,0 +1,73 @@
+/* ------- GENERAL STRUCTURE ------- */
+
+body{
+    background-color: purple;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ------- HEADER ------- */
+
+header{
+    border: 1px solid black;
+}
+
+div#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    color: #fff;
+}
+
+input#entrar{
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 22px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: purple;
+    font-weight: bold;
+    border: 1px solid silver;
+}
+
+input#entrar:hover{
+    color: purple;
+    background-color: #fff;
+}
+
+/* ------- MAIN ------- */
+
+div.bloco_acesso_user{
+    width: 250px;
+    text-align: center;
+    margin-top: 5%;
+    border: 1px solid #000;
+}
+
+div.formulario{
+    margin-top: 20px;
+}
+
+input#user input#password_user{
+    background-color: purple;
+    border-style: inherit;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+h6 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: xx-small;
+}
+
+/* ------- FOOTER ------- */
+p#footer{
+    font-size: x-small;
+    text-align: center;
+    margin-top: 5%;
+}

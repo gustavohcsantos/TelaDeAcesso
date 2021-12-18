@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela de Acesso</title>
+        <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <div id="cabecalho">
+                <h1>DAORA LAB</h1>
+                <!--<spam><input type="submit" name="entrar" id="entrar" value="Entrar"/></spam>-->
+            </div>
+        </header>
+
+        <main>
+            <div class="bloco_acesso_user"><!-- Bloco da tela de acesso -->
+                <div class="formulario"><!-- Formulário de acesso do usuário -->
+                    <form method="POST" action="php/index.php">
+                        <label for="user">Usuário</label><br />
+                            <input type="text" name="user" id="user" /><br /><br />
+                        <label for="password_user">Senha</label><br />
+                            <input type="password" name="password_user" id="password_user" /><br /><br />
+                        <input type="submit" name="entrar" id="entrar" value="Entrar" />
+                    </form>
+                </div>
+                <h6><a href="#" alt="Esqueci minha senha" title="">Esqueci minha senha</a></h6>
+            </div>
+        </main>
+
+        <footer>
+            <p id="footer">Todos os direitos reservados à Daora Lab 2021<br />Feito por: Gustavo Henrique</p>
+        </footer>
+    </body>
+</html>
