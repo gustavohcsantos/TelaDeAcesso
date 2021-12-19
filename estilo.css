@@ -10,6 +10,7 @@ body{
 /* ------- HEADER ------- */
 
 header{
+    background-color: rgba(0, 0, 0, 0.1);
     border: 0px solid black;
 }
 
@@ -23,17 +24,6 @@ div#cabecalho{
 h1{
     color: #000;
 } 
-
-input#entrar{
-    cursor: pointer;
-    background-color: #fff;
-    margin-top: 22px;
-    padding: 10px 15px;
-    border-radius: 10px;
-    color: #000;
-    font-weight: bold;
-    border: 1px solid silver;
-}
 
 /* ------- MAIN ------- */
 
@@ -54,18 +44,21 @@ input#user, input#password_user{
     border-style: inherit;
     border-bottom: 1px solid #000;
     color: #000;
-}
-
-a#logar{
-    color: #000;
-    text-decoration: none;
-    font-size: 15px;
-    border: 1px solid #000;
-    border-radius: 10px;
     padding: 5px 10px;
 }
 
-a#logar:hover{
+input#entrar{
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid silver;
+}
+
+input#entrar:hover{
     color: #fff;
     background-color: #000;
 }
@@ -73,7 +66,7 @@ a#logar:hover{
 h6 a{
     text-decoration: none;
     color: #000;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 h6 a:hover{
@@ -83,7 +76,9 @@ h6 a:hover{
 
 /* ------- FOOTER ------- */
 p#footer{
-    font-size: xx-small;
+    font-size: 12px;
     text-align: center;
     margin-top: 10%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
 }
