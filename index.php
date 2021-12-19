@@ -32,8 +32,8 @@
                 if(!empty($user) && !empty($password_user)){
                     
                     include 'connect.php';
-                    $query = "SELECT * FROM acesso_sistema WHERE user, password_user LIKE $user, $password_user;";
-                    $result = mysqli_query($dbc, $query) or die ("<br />Usuário e Senha não existem.<br /><br /><input type=\"submit\" value=\"Voltar\" onclick=\"JavaScript: window.history.back();\">");
+                    $query = "SELECT * from acesso_sistema WHERE user = '$user' AND password_user='$password_user';";
+                    $result = mysqli_query($dbc, $query) or die ("<br />Usuário e/ou Senha não existem.<br /><br /><input type=\"submit\" value=\"Voltar\" onclick=\"JavaScript: window.history.back();\">");
 
                     if($row = mysqli_fetch_array($result)){
                         $usuario = $row['usuario'];
